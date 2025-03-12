@@ -189,7 +189,7 @@ func connectSSH(ip string) (*ssh.Client, error) {
 		HostKeyCallback: ssh.InsecureIgnoreHostKey(),
 		Timeout:         5 * time.Second,
 	}
-	return ssh.Dial("tcp", ip+":2006", config)
+	return ssh.Dial("tcp", ip+":22", config)
 }
 
 // Execute MikroTik command

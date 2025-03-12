@@ -29,7 +29,7 @@ A powerful **Go-based** automation tool to backup and export MikroTik router con
 
 ## ⚙️ Prerequisites
 
-- **MikroTik Routers** with SSH (Port `2006`) enabled.
+- **MikroTik Routers** with SSH (Port `22`) enabled.
 - Go **v1.21+** installed on your machine.
 
 ## 🚀 Installation
