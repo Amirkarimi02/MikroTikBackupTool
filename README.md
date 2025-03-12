@@ -20,7 +20,7 @@ A powerful **Go-based** automation tool to backup and export MikroTik router con
 
 ## 📊 How It Works
 
-1. Connects to MikroTik devices via **SSH** (port `2006` by default).
+1. Connects to MikroTik devices via **SSH** (port `22` by default).
 2. Executes:
    - `/system backup save` to create a binary backup (`.backup`).
    - `/export` to generate a readable script (`.rsc`).
