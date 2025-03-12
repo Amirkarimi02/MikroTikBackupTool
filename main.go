@@ -13,49 +13,16 @@ import (
 
 // MikroTik device list
 var mikrotikDevices = []string{
-	"192.168.5.47",
 	"192.168.0.1",
-	"192.168.1.112",
-	"192.168.2.204",
-	"192.168.7.200",
-	"192.168.2.202",
-	"192.168.1.251",
-	"192.168.3.188",
-	"192.168.1.131",
-	"192.168.2.203",
-	"192.168.2.15",
-	"192.168.1.106",
-	"192.168.2.197",
-	"192.168.2.233",
-	"192.168.1.164",
-	"192.168.2.166",
-	"192.168.2.137",
-	"192.168.3.39",
-	"192.168.1.154",
-	"192.168.2.91",
-	"192.168.1.153",
-	"192.168.1.146",
-	"192.168.2.9",
-	"192.168.1.139",
-	"192.168.1.144",
-	"192.168.3.160",
-	"192.168.3.174",
-	"192.168.1.49",
-	"192.168.1.245",
-	"192.168.1.160",
-	"192.168.1.148",
-	"192.168.2.220",
-	"192.168.1.143",
-	"192.168.110.1",
-	"192.168.100.1",
+	//List of Mikrotik ip addresses
 }
 
 const (
-	username   = "admin"                                        // MikroTik username
-	password   = "ParlarNetwork@1402"                           // MikroTik password
-	backupDir  = "H:\\Karimi\\My Mikrotik's\\Backups\\Automate" // Directory to save backups
-	maxRetries = 5                                              // Maximum retry count
-	retryDelay = 5 * time.Second                                // Delay between retries
+	username   = "your_username" // MikroTik username
+	password   = "your_password" // MikroTik password
+	backupDir  = ".\\backup"     // Directory to save backups
+	maxRetries = 5               // Maximum retry count
+	retryDelay = 5 * time.Second // Delay between retries
 )
 
 func main() {
