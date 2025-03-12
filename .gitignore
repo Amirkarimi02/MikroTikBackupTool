@@ -1,0 +1,7 @@
+# Ignore executables
+*.exe
+*.out
+*.log
+
+# Go modules cache
+/vendor/
